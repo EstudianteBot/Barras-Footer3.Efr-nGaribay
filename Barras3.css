@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Menu de navigacion */
+body .Submenu {
+    background: #5b5b5b;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px 48px;
+}
+
+body .Submenu .Idioma {
+    align-items: top;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+body .Submenu .Idioma .Cambiar {
+    display: flex;
+}
+
+body .Submenu .Idioma .Cambiar > span {
+    padding: 0px 5px;
+}
+
+body .Submenu .Idioma .Cambiar > p {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-top: 2px;
+    padding: 0px 5px;
+}
+
+body .Submenu .Idioma .Span {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+body .Submenu .Idioma .Redes {
+    align-items: center;
+    display: flex;
+}
+
+body .Submenu .Idioma .Redes > span {
+    padding: 0px 5px;
+}
+
+body .Submenu .Idioma .Redes .Twitter > img {
+    height: 15px;
+    width: 18px;
+    vertical-align: top;
+}
+
+body .Submenu .Idioma .Redes .FB > img {
+    height: 15px;
+    width: 15px;
+    vertical-align: top;
+}
+
+body .Submenu .Idioma .Redes .IG > img {
+    height: 16px;
+    width: 16px;
+    vertical-align: top;
+}
+
+body .MenuPrincipal {
+    align-items: center;
+    background: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Merriweather Sans', sans-serif;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 48px;
+    margin: 8px 8px;
+}
+
+body .MenuPrincipal .Logo {
+    border-radius: 5px;
+}
+
+body .MenuPrincipal .Logo h4 {
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: x-large;
+    padding: 8px 44px;
+}
+
+body .MenuPrincipal .MenuItems {
+    display: flex;
+    padding-right: 48px;
+}
+
+body .MenuPrincipal .MenuItems .Items{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    width: 100%;
+}
+
+body .MasInformacion {
+    display: flex;
+    color: black;
+}
+
+body .MasInformacion .Page1 {
+    align-items: start;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline: 24px;
+}
+
+body .MasInformacion .Page1 > span {
+    border: 1.5px solid transparent;
+    padding: 0px 0px;
+    width: 85%;
+}
+
+body .MasInformacion .Page1:hover {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: blueviolet;
+}
+
+body .MasInformacion .Page1:hover > span {
+    border: 1.5px solid blueviolet;
+    width: 85%;
+}
+
+body .MenuPrincipal .MenuItems .Items .Span > span {
+    padding: 0px 20px;
+}
+
+body .MenuPrincipal .MenuItems .Items .Span .material-symbols-outlined {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+body .Footer {
+    align-items: center;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px;
+}
+
+body .Footer .Izquierda {
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+body .Footer .Izquierda .Logo {
+    border-radius: 5px;
+    padding-bottom: 48px;
+}
+
+body .Footer .Izquierda .Logo h4 {
+    background: rgb(92, 92, 92);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: x-large;
+    padding: 8px 44px;
+}
+
+body .Footer .Izquierda .Enlaces {
+    align-items: left;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: small;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 48px;
+}
+
+body .Footer .Izquierda > span {
+    padding-left: 64px;
+}
+
+body .Footer .Derecha {
+    color: #ffffff;
+    display: flex;
+    gap: 72px;
+    padding-top: 40px;
+}
+
+body .Footer .Derecha .Enlaces {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+body .LastFoot {
+    align-items: center;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px;
+}
+
+body .LastFoot .Left .Redes > span {
+    padding-left: 15px;
+}
+
+body .LastFoot .Right > button {
+    font-size: 20px;
+    padding: 16px 40px;
+}
+
+body .Copyright {
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    margin: 0%;
+    padding: 24px 0px;
+    text-align: center;
+}
